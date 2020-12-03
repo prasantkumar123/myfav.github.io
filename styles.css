@@ -1,0 +1,293 @@
+body {
+
+   /* background-color: #a4508b;
+
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);  */
+
+   background:linear-gradient(50deg, rgba(10, 225, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(220, 10, 0, 0.3)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+
+   background-size:cover;
+
+   background-attachment:fixed;
+
+   transition:3s;
+
+   animation:back 3s ease-in infinite;
+
+}
+
+#btn{
+
+    position:absolute;
+
+    top:37%;
+
+    left:20%;
+
+    height:10vh;
+
+    width:60vw;
+
+    font-size:5vh;
+
+    font-family:cursive;
+
+    border-radius:5%;
+
+    outline:none;
+
+    background:linear-gradient(50deg, yellow, orange, red), rgba(0, 0, 0, 1);
+
+    border-left:0;
+
+    border-top:0;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+.fire1{
+
+    float:left;
+
+}
+
+.fire2{
+
+    float:right;
+
+}
+
+.w{
+
+    position:absolute;
+
+    transform:rotate(-45deg);
+
+}
+
+.w1{
+
+    top:2%;
+
+    left:10%;
+
+}
+
+.w2{
+
+    top:2%;
+
+    left:50%;
+
+}
+
+.w3{
+
+    top:2%;
+
+    left:90%;
+
+}
+
+.w4{
+
+    top:20%;
+
+    left:30%;
+
+}
+
+.w5{
+
+    top:20%;
+
+    left:70%;
+
+}
+
+.t{
+
+    position:absolute;
+
+    transform:rotate(-45deg);
+
+}
+
+.t1{
+
+    top:2%;
+
+    left:30%;
+
+}
+
+.t2{
+
+    top:2%;
+
+    left:70%;
+
+}
+
+.t3{
+
+    top:20%;
+
+    left:10%;
+
+}
+
+.t4{
+
+    top:20%;
+
+    left:50%;
+
+}
+
+.t5{
+
+    top:20%;
+
+    left:90%;
+
+}
+
+h2{
+
+    position:absolute;
+
+    background:rgba(0, 0, 0, 0.5);
+
+    box-shadow:inset 2px 1px 10px black;
+
+    width:70vw;
+
+    top:50%;
+
+    left:10%;
+
+    color:white;
+
+    padding:2% 2% 1% 2%;
+
+    border-radius:5%;
+
+    border:10px solid rgba(210, 100, 10, 0.2);
+
+    font-family: 'Courgette', cursive;
+
+}
+
+#contain{
+
+    display:none;
+
+}
+
+audio{
+
+    display:none;
+
+}
+
+#false{
+
+    height:100%;
+
+    width:100vw;
+
+    margin:-10px;
+
+    padding:-10px;
+
+    position:absolute;
+
+background-image: linear-gradient( 112.4deg,  rgba(169,28,115,1) 21.6%, rgba(219,112,54,1) 92.2% );
+
+    background-size:cover;
+
+    background-attachment:fixed;
+
+    z-index:100;
+
+    transition:3s;
+
+    color:white;
+
+}
+
+#false button{
+
+    position:absolute;
+
+    top:70%;
+
+    left:30%;
+
+    height:10vh;
+
+    width:50vw;
+
+    border:none;
+
+    border-radius:40%;
+
+    outline:none;
+
+    background:linear-gradient(to right, yellow, orange, red);
+
+}
+
+span{
+
+    text-align:center;
+
+}
+
+@keyframes back{
+
+    0%{
+
+    background:linear-gradient(50deg, rgba(10, 225, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(220, 10, 0, 0.3)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); background-size:cover; background-attachment:fixed;
+
+    }
+
+    
+
+    20%{
+
+    background:linear-gradient(50deg, rgba(10, 0, 220, 0.1), rgba(0, 0, 0, 0.4), rgba(10, 220, 0, 0.3)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); background-size:cover; background-attachment:fixed;
+
+    }
+
+    
+
+    40%{
+
+    background:linear-gradient(50deg, rgba(225, 10, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(0, 10, 220, 0.2)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); background-size:cover; background-attachment:fixed;
+
+    }
+
+    
+
+    60%{
+
+    background:linear-gradient(50deg, rgba(100, 225, 0, 0.3), rgba(0, 0, 0, 0.4), rgba(220, 10, 50, 0.3)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); background-size:cover; background-attachment:fixed;
+
+    }
+
+    
+
+    100%{
+
+    background:linear-gradient(50deg, rgba(10, 225, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(220, 10, 0, 0.3)), url("https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); background-size:cover; background-attachment:fixed;
+
+    }
+
+}
